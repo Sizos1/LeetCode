@@ -1,7 +1,6 @@
 #include <iostream>
 #include <string>
 #include "TreeNode.cpp"
-
 void search(TreeNode *root, int targetSum, int sum, bool &found)
 {
     if (root == nullptr)
