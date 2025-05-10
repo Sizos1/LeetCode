@@ -41,7 +41,6 @@ int main()
             cout << triangle[i][j] << " ";
         }
         cout << endl;
-    }
-
+    };
     return 0;
 }
