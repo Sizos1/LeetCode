@@ -24,23 +24,3 @@ vector<vector<int>> generate(int numRows)
     }
     return triangle;
 }
-
-int main()
-{
-    int numRows;
-    cout << "Enter the number of rows: ";
-    cin >> numRows;
-
-    vector<vector<int>> triangle = generate(numRows);
-
-    // Print the triangle
-    for (int i = 0; i < triangle.size(); i++)
-    {
-        for (int j = 0; j < triangle[i].size(); j++)
-        {
-            cout << triangle[i][j] << " ";
-        }
-        cout << endl;
-    };
-    return 0;
-}
