@@ -4,27 +4,23 @@
 
 using namespace std;
 
-vector<int> preorderTraversal(TreeNode *root, vector<int> &result)
+vector<int> traverseTree(TreeNode *root, vector<int> &result)
 {
     if (root == nullptr)
         return result;
 
     result.push_back(root->val);
-    preorderTraversal(root->left, result);
-    preorderTraversal(root->right, result);
+    traverseTree(root->left, result);
+    traverseTree(root->right, result);
 
     return result;
 }
 
-int main()
+vector<int> preorderTraversal(TreeNode *root)
 {
-    TreeNode *root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-    root->left->left = new TreeNode(4);
-    root->left->right = new TreeNode(5);
-
     vector<int> result;
-    preorderTraversal(root, result);
-    return 0;
+    traverseTree(root, result);
+    return result;
 }
+
+// muy teso yo jajaja nunca voy a olvidar como recorrer un árbol binario
