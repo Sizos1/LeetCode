@@ -33,4 +33,4 @@ vector<string> binaryTreePaths(TreeNode *root)
     return result;
 }
 
-// no tengo ni idea qué es backtracking, pero pude hacer el problema a punta de pura habilidad
+// no tengo ni idea qué es backtracking, pero pude hacer el problema a punta de pura hab
