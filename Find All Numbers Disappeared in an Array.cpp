@@ -4,6 +4,7 @@
 
 using namespace std;
 
+// No supe que hacer con la solución de espacio constante nagh
 vector<int> findDisappearedNumbers(vector<int> &nums)
 {
     vector<int> result;
@@ -21,5 +22,3 @@ vector<int> findDisappearedNumbers(vector<int> &nums)
     }
     return result;
 }
-
-// No supe que hacer con la solución de espacio constante nagh
