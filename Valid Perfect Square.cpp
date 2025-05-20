@@ -1,7 +1,3 @@
-#include <iostream>
-#include <vector>
-
-using namespace std;
 
 bool isPerfectSquare(int num)
 {
@@ -33,10 +29,4 @@ bool isPerfectSquare(int num)
     }
 
     return false;
-}
-
-int main()
-{
-    isPerfectSquare(81);
-    return 0;
 }
